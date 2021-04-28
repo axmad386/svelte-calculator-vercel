@@ -1,38 +1,23 @@
-# create-svelte
+# Svelte Calculator
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+Svelte Calculator made with Svelte. For easy development we use svelte-kit and tailwindcss
 
-## Creating a project
+## Preparation
 
-If you're seeing this, you've probably already done this step. Congrats!
+We are use yarn instead of npm for better development.
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+### Install Dependencies
+run in cmd 
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
+`yarn`
+## Running Project
 
-> Note: the `@next` is temporary
+To run the Svelte Calculator, just run cmd `yarn dev`. Open [localhost:3000](localhost:3000) to access the main svelte app
+## Contribute
+### Semantic Commit Message
 
-## Developing
+We are use semantic commit message for better commit organiser. Please look [this gist](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716) for detail about semantic commit message.
+This project is OpenSource, you can contribute by make PR. happy coding :)
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
-
-```bash
-npm run build
-```
-
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+## License
+Please read [this](./LICENSE)
