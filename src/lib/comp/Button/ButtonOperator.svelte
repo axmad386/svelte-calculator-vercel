@@ -32,6 +32,11 @@
         },
     };
     const insert = () => {
+        if (
+            operators[operator].type == "operator" &&
+            data[cursorIndex - 1].type != "number"
+        )
+            return false;
         let delLenght = 0;
         if (data.length == 1 && data[0].out == "0") {
             // operator cannot be in first place
@@ -46,7 +51,7 @@
 </script>
 
 <button
-    class="focus:outline-none rounded bg-gray-600 border-gray-500 border-l border-b text-white text-3xl"
+    class="h-12 shadow rounded bg-gray-600 border-gray-500 border-l-2 border-b text-white text-3xl"
     on:click={insert}
 >
     {operator}

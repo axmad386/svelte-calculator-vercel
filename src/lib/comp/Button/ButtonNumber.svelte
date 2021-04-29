@@ -19,7 +19,7 @@
 </script>
 
 <button
-    class="focus:outline-none rounded border-gray-500 border-l border-b bg-black text-white text-3xl"
+    class="h-12 shadow rounded border-gray-500 border-l-2 border-b bg-black text-white text-3xl"
     on:click={insert}
 >
     {number}
